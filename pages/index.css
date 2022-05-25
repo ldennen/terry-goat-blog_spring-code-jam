@@ -1,0 +1,105 @@
+@import url('../vendor/fonts/fonts.css');
+
+.page { 
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #0882ff;
+  margin: 0;
+}
+
+.sidebar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  margin: 50px 0;
+}
+
+.header__title {
+  margin: 0;
+  text-align: center;
+  font-size: 90px;
+}
+
+.profile {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile__photo {
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  width: 100%;
+}
+
+.profile__text {
+  margin: 0 0 40px;
+  font-size: 30px;
+}
+
+.button_type_add {
+  background-image: url('../images/add-button.svg');
+  width: 90%;
+  height: 70px;
+  fill: #000;
+  border: none;
+  background-color: #0882ff;
+  opacity: .5;
+  background-repeat: no-repeat;
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  align-self: center;
+  background-position: center;
+  margin: 0 auto;
+  transition: opacity .25s ease-out;
+  background-size: 3em;
+}
+
+.button_type_add:hover {
+  opacity: 1;
+}
+
+.posts {
+  padding-left: 30%;
+}
+
+.posts__container {
+  list-style: none;
+  padding: 5%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.post {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+}
+
+.post__image {
+  width: 100%;
+  display: block;
+}
+
+.post__title {
+  font-size: 70px;
+  margin: 0;
+  
+}
+
+.post__paragraph {
+  font-size: 25px;
+  margin: 0;
+}
