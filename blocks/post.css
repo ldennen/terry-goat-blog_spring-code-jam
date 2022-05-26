@@ -5,6 +5,12 @@
   background-color: #fff;
   border-radius: 0 0 10px 10px;
   text-align: center;
+  border: 6px solid #0882ff;
+  transition: transform 0.5s linear 0s;
+}
+
+.post:hover {
+  transform: scale(1.02);
 }
 
 @media screen and (max-width: 1189px) {
