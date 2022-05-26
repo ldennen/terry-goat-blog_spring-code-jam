@@ -1,0 +1,13 @@
+.posts {
+  padding-left: 30%;
+}
+
+.posts__container {
+  list-style: none;
+  padding: 5%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+}
